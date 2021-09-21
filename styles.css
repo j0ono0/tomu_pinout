@@ -28,14 +28,23 @@ text {
 
 
 
-.gnd .pinlabel__body{
-    fill: rgb(59, 38, 252);
+.pin-id .pinlabel__body{
+    fill: rgb(70, 70, 70);
 }
-.gnd .pinlabel__leader{
-    stroke: rgb(59, 38, 252);
+.pin-id .pinlabel__leader{
+    stroke: rgb(70, 70, 70);
 }
-.gnd .swatch__body {
-    fill: rgb(59, 38, 252);
+.pin-id .swatch__body {
+    fill: rgb(70, 70, 70);
+}
+.comms .pinlabel__body{
+    fill: rgb(84, 161, 145);
+}
+.comms .pinlabel__leader{
+    stroke: rgb(84, 161, 145);
+}
+.comms .swatch__body {
+    fill: rgb(84, 161, 145);
 }
 .pwr .pinlabel__body{
     fill: rgb(195, 18, 87);
@@ -46,23 +55,14 @@ text {
 .pwr .swatch__body {
     fill: rgb(195, 18, 87);
 }
-.data .pinlabel__body{
-    fill: rgb(196, 87, 101);
+.led .pinlabel__body{
+    fill: rgb(216, 100, 252);
 }
-.data .pinlabel__leader{
-    stroke: rgb(196, 87, 101);
+.led .pinlabel__leader{
+    stroke: rgb(216, 100, 252);
 }
-.data .swatch__body {
-    fill: rgb(196, 87, 101);
-}
-.btn .pinlabel__body{
-    fill: rgb(188, 25, 152);
-}
-.btn .pinlabel__leader{
-    stroke: rgb(188, 25, 152);
-}
-.btn .swatch__body {
-    fill: rgb(188, 25, 152);
+.led .swatch__body {
+    fill: rgb(216, 100, 252);
 }
 
 
