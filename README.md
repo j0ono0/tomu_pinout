@@ -10,4 +10,4 @@ This repo is an attempt to streamline the creation process for related pinout di
 
 ### TOMU pinout
 
-![TOMU pinout diagram](https://github.com/j0ono0/tomu_pinout/blob/main/tomu_pinout.png?raw=true)
+![TOMU pinout diagram](https://raw.githubusercontent.com/j0ono0/tomu_pinout/main/output/tomu_pinout.png)
