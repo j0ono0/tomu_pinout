@@ -3,7 +3,7 @@
 # TOMU pinout
 #
 # Export the diagram via commandline:
-# >>> py -m pinout.manager -e pinout_diagram output/tomu_pinout.svg -o
+# >>> py -m pinout.manager -e pinout_diagram.py output/tomu_pinout.svg -o
 #
 ###########################################
 
@@ -27,7 +27,7 @@ config.pinlabel["body"]["width"] = 120
 
 
 diagram = Diagram_2Rows(1024, 800, 650, tag="diagram")
-diagram.add_stylesheet("styles.css", embed=False)
+diagram.add_stylesheet("styles.css")
 diagram.panel_02.add(TextBlock(data.tomu_text["title"], x=20, y=40))
 diagram.panel_02.add(TextBlock(data.tomu_text["description"], x=20, y=60))
 diagram.panel_02.add(TextBlock(data.tomu_text["notes"], x=400, y=60))

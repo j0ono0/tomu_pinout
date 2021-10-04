@@ -57,17 +57,17 @@ tomu_pinlabels_top = [
     {
         "title": "usb_GND",
         "scale": (-1, 1),
-        "labels": [[("0", "pin-id"), ("GND", "pwr")]],
+        "labels": [[("0", "pin-id"), ("GND", "gnd")]],
     },
     {
         "title": "usb_D+",
         "scale": (-1, 1),
-        "labels": [[("18", "pin-id"), ("D+", "pwr")]],
+        "labels": [[("18", "pin-id"), ("D+", "comms")]],
     },
     {
         "title": "usb_D-",
         "scale": (-1, 1),
-        "labels": [[("17", "pin-id"), ("D-", "pwr")]],
+        "labels": [[("17", "pin-id"), ("D-", "comms")]],
     },
     {
         "title": "usb_+5V",
@@ -77,19 +77,19 @@ tomu_pinlabels_top = [
     # Buttons
     {
         "title": "CAP0B",
-        "labels": [[("23", "pin-id"), ("CAP0B", "pwr")]],
+        "labels": [[("23", "pin-id"), ("CAP0B", "comms")]],
     },
     {
         "title": "CAP0A",
-        "labels": [[("3", "pin-id"), ("CAP0A", "pwr")]],
+        "labels": [[("3", "pin-id"), ("CAP0A", "comms")]],
     },
     {
         "title": "CAP1B",
-        "labels": [[("24", "pin-id"), ("CAP1B", "pwr")]],
+        "labels": [[("24", "pin-id"), ("CAP1B", "comms")]],
     },
     {
         "title": "CAP1A",
-        "labels": [[("4", "pin-id"), ("CAP1A", "input")]],
+        "labels": [[("4", "pin-id"), ("CAP1A", "comms")]],
     },
 ]
 
@@ -119,7 +119,7 @@ tomu_pinlabels_bottom = [
     },
     {
         "title": "GND_1",
-        "labels": [[("0", "pin-id"), ("GND", "pwr")]],
+        "labels": [[("0", "pin-id"), ("GND", "gnd")]],
     },
     {
         "title": "USB +5V",
@@ -143,7 +143,7 @@ tomu_pinlabels_bottom = [
     {
         "title": "GND_2",
         "scale": (-1, 1),
-        "labels": [[("0", "pin-id"), ("GND", "pwr")]],
+        "labels": [[("0", "pin-id"), ("GND", "gnd")]],
     },
 ]
 
